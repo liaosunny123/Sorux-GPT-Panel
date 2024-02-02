@@ -3,6 +3,13 @@ SoruxGPT 面板管理，支持多号多节点 ChatGPT 共享管理。
 
 若有兴趣，致信 epicmocn@gmail.com 联系。
 
+## Docker 镜像
+注：具体的标签请自己在 Docker Hub 中搜索   
+如果需要提供指导，可以有偿通过联系邮箱~  
+```bash
+docker pull epicmo/sorux_user:v15
+```
+
 ## Feature
 
 - 节点管理：支持多个节点的调度管理
