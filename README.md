@@ -1,6 +1,8 @@
 # Sorux-GPT-Panel
 SoruxGPT 面板管理，支持多号多节点 ChatGPT 共享管理。  
+
 交流群：168626495  
+
 特别注意：本 Panel 不允许任何未经许可的商业化授权，社区版本不允许节点数大于等于 2，用户大于等于 10。如果需要商业化授权请联系 epicmocn@gmail.com。  
 
 ## Docker 镜像部署
