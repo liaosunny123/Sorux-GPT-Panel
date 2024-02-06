@@ -16,7 +16,8 @@ docker pull epicmo/soruxgpt_community:latest
 
 ## 部署文档
 
-Docker-Compose
+Docker-Compose  
+请确保目录下有一个 data 文件夹（与 docker-compose 做映射）
 
 ```yaml
 version: "3.9"
@@ -54,7 +55,7 @@ services:
     env_file:
       - .env.docker.compose
     volumes:
-      - "./gorm.db:/sorux/gpt/gorm.db"
+      - "./data:/sorux/gpt/data"
     depends_on:
       redis:
         condition: service_healthy
