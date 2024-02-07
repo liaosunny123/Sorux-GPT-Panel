@@ -64,7 +64,7 @@ services:
     env_file:
       - .env.docker.compose
     volumes:
-      - "./gorm.db:/sorux/gpt/gorm.db"
+      - "./data:/sorux/gpt/data"
     depends_on:
       redis:
         condition: service_healthy
@@ -152,8 +152,8 @@ database:
 
 ## 社区版限制
 
-- 用户数不能超过8
-- 节点数不能超过1
+- 用户数不能超过10
+- 节点数不能超过2
 - 不支持设备数限制
 - 不支持违禁提问检查
 - 不支持按用户单独限制消息频率
