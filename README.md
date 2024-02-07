@@ -16,6 +16,16 @@ docker pull epicmo/soruxgpt_community:latest
 
 ## 部署文档
 
+1. 先建立你的文件夹
+
+```’bash
+mkdir SoruxGPT
+cd SoruxGPT
+mkdir data # 用于存储面板数据
+```
+
+2. 新建 Docker-Compose 文件，并部署
+
 Docker-Compose
 
 ```yaml
@@ -64,7 +74,7 @@ volumes:
   share-volume:
 ```
 
-配置文件(.env.docker.compose)：
+3. 新建配置文件(.env.docker.compose)：
 
 ```yaml
 # Configure Log settings
@@ -88,7 +98,7 @@ REDIS_ADDR=redis:6379
 
 默认账号密码为：admin admin
 
-对于蟑螂，需要在配置处修改为以下内容，然后在管理面板添加节点即可
+4. 对于蟑螂，需要在配置处修改为以下内容，然后在管理面板添加节点即可。注意，添加节点的时候需要保证域名的格式为：xxx.xxx.xxx，例如 a.ai.com，不需要添加https/http
 
 ```yaml
 OAUTH_URL: "https://{SoruxGPT 域名}/api/oauth?client_tag={代理这个节点的域名}"
