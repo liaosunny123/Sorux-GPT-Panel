@@ -1,5 +1,5 @@
 # Sorux-GPT-Panel
-SoruxGPT 面板管理，支持多号多节点 ChatGPT 共享管理。  
+SoruxGPT 面板管理，支持多号多节点的 ChatGPT 管理和 API 服务的一站式解决方案。
 
 交流群：168626495  
 
@@ -27,6 +27,9 @@ docker pull epicmo/soruxgpt_community:latest
 - 聊天汇总查看：支持后台查看全部消息记录
 - 兑换码系统：对接兑换码系统
 - 商店系统：允许用户购买商品
+- 支付系统：对接网页支付
+- 公告系统：允许系统主动通知用户信息
+- API 系统：集成 API 服务，面板同时支持 API 和 ChatGPT 网页聊天。
 - 内置虚拟货币系统：支持内置虚拟货币系统
 - 等等...
 
@@ -42,9 +45,11 @@ docker pull epicmo/soruxgpt_community:latest
 ## 截图
 > 注意：这些截图并非最新的
   
-![节点列表](1.png)
+![首页](1.png)
 
-![用户管理](2.png)
+![用户节点列表](2.png)
+
+![用户管理](3.png)
 
 ![聊天界面](4.png)
 
