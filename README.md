@@ -29,7 +29,6 @@ docker pull epicmo/soruxgpt_community:latest
 - 商店系统：允许用户购买商品
 - 支付系统：对接网页支付
 - 公告系统：允许系统主动通知用户信息
-- API 系统：集成 API 服务，面板同时支持 API 和 ChatGPT 网页聊天。
 - 内置虚拟货币系统：支持内置虚拟货币系统
 - 等等...
 
